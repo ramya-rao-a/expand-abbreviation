@@ -1,11 +1,11 @@
 {
-  "name": "@emmetio/expand-abbreviation",
+  "name": "vscode-expand-abbreviation",
   "version": "0.5.8",
-  "description": "Reference implementation of Emmet abbreviation expander",
+  "description": "Fork of the Reference implementation of Emmet abbreviation expander",
   "main": "dist/expand.cjs.js",
   "module": "dist/expand.es.js",
   "dependencies": {
-    "@emmetio/abbreviation": "^0.6.1",
+    "emmet-abbreviation-helper": "^0.6.3",
     "@emmetio/css-abbreviation": "^0.3.1",
     "@emmetio/css-snippets-resolver": "^0.2.5",
     "@emmetio/html-snippets-resolver": "^0.1.4",
@@ -33,7 +33,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emmetio/expand-abbreviation.git"
+    "url": "git+https://github.com/ramya-rao-a/expand-abbreviation.git"
   },
   "keywords": [
     "emmet",
@@ -43,7 +43,7 @@
   "author": "Sergey Chikuyonok <serge.che@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/emmetio/expand-abbreviation/issues"
+    "url": "https://github.com/ramya-rao-a/expand-abbreviation/issues"
   },
-  "homepage": "https://github.com/emmetio/expand-abbreviation#readme"
+  "homepage": "https://github.com/ramya-rao-a/expand-abbreviation#readme"
 }
